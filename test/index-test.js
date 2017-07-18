@@ -1,5 +1,5 @@
 describe('President', function() {
-  let lyndonJohnson
+  var lyndonJohnson
   before(() => {
     lyndonJohnson = new President("Lyndon B Johnson", "Democrat", "1963-1969", "Texas")
   })
